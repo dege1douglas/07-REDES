@@ -20,10 +20,10 @@ class Program
         var mensagem = new MimeMessage();
 
         // Define o remetente do e-mail (seu nome e e-mail)
-        mensagem.From.Add(new MailboxAddress("Seu Nome", "seu-email@gmail.com"));
+        mensagem.From.Add(new MailboxAddress("DOUGLAS DEV", "testesdevdouglas@gmail.com"));
 
-        // Define o destinatário do e-mail (nome do professor e e-mail do professor)
-        mensagem.To.Add(new MailboxAddress("Professor", "email-do-professor@example.com"));
+        // Define o destinatário do e-mail (nome e e-mail)
+        mensagem.To.Add(new MailboxAddress("Douglas", "dglscosta007@gmail.com"));
 
         // Define o assunto do e-mail
         mensagem.Subject = "Teste de envio de e-mail";
